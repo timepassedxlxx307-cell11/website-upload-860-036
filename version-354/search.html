@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索影片 - 日韩影视网</title>
+  <meta name="description" content="搜索日韩影视网全部电影、电视剧、短剧和高清视频内容，按标题、标签、地区和年份快速筛选。">
+  <meta name="keywords" content="经典日韩电影,在线观看,免费观看,日韩影视,日韩电视剧,高清视频,影视大全,免费播放,动人故事,视听盛宴,影片搜索">
+  <link rel="stylesheet" href="assets/original.css">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="日韩影视网">
+      <span class="brand-icon">▶</span>
+      <span class="brand-text">日韩影视网</span>
+    </a>
+    <nav class="desktop-nav">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="categories.html">分类</a>
+      <a class="nav-link" href="ranking.html">榜单</a>
+      <a class="nav-link active" href="search.html">搜索</a>
+    </nav>
+    <button class="mobile-toggle" type="button" aria-label="菜单" data-mobile-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" data-mobile-nav>
+    <a class="mobile-link" href="index.html">首页</a>
+    <a class="mobile-link" href="categories.html">分类</a>
+    <a class="mobile-link" href="ranking.html">榜单</a>
+    <a class="mobile-link active" href="search.html">搜索</a>
+  </nav>
+</header>
+
+<main class="page-main">
+  <section class="page-hero small-hero">
+    <div>
+      <span class="section-kicker">Search</span>
+      <h1>搜索影片</h1>
+      <p>输入影片名、类型、标签、地区或年份，快速进入对应详情页观看。</p>
+    </div>
+  </section>
+  <section class="content-section">
+    <div class="search-panel">
+      <input type="search" placeholder="搜索标题、简介、标签、地区、类型、年份" data-global-search autofocus>
+      <select data-global-sort>
+        <option value="rank">综合排序</option>
+        <option value="year">按年份排序</option>
+        <option value="title">按标题排序</option>
+      </select>
+    </div>
+    <div class="movie-grid" data-search-results></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a class="brand footer-logo" href="index.html">
+        <span class="brand-icon">▶</span>
+        <span class="brand-text">日韩影视网</span>
+      </a>
+      <p>在线免费观看经典日韩电影，感受不一样的视听盛宴，带你走进每一个动人的故事世界。提供最新最全的日韩电视剧、电影、综艺节目高清免费播放</p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类</a>
+      <a href="ranking.html">榜单</a>
+      <a href="search.html">搜索</a>
+    </div>
+  </div>
+</footer>
+<script src="assets/search-data.js"></script>
+<script src="assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
+
